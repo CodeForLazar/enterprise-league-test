@@ -1,0 +1,17 @@
+.ui-input {
+   display: block;
+   width: 100%;
+   border-radius: 0.4rem;
+   padding: 0.2rem 0.2rem;
+   color: $gray900;
+   font-weight: bold;
+   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+
+   &:focus {
+   outline: none;
+   }
+
+   &::placeholder {
+      color: $gray400;
+   }
+}

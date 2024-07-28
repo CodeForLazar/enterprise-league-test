@@ -1,0 +1,17 @@
+.ui-button {
+   background-color: $indigo600;
+   border-radius: 0.4rem;
+   padding: 0.3rem 0.2rem;
+   color: #fff;
+   font-weight: 600;
+   border: 0;
+   box-shadow: 1px 1px 1px 1px;
+
+   &:hover {
+      background-color: $indigo500;
+   }
+
+   &:active {
+      transform: scale(0.99);
+   }
+}

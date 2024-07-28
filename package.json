@@ -1,0 +1,24 @@
+{
+   "name": "enterprise-league-test",
+   "version": "1.0.0",
+   "description": "interview test",
+   "main": "server.js",
+   "scripts": {
+      "start": "npm run build --prefix frontend && node backend/server.js",
+      "server": "nodemon backend/server.js",
+      "client": "npm run dev --prefix frontend",
+      "dev": "concurrently \"npm run server\" \"npm run client\"",
+      "install:all": "npm install && npm install --prefix frontend"
+   },
+   "author": "Lazar Kiridjievski",
+   "license": "ISC",
+   "dependencies": {
+      "csvtojson": "^2.0.10",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2"
+   },
+   "devDependencies": {
+      "concurrently": "^8.2.2",
+      "nodemon": "^3.1.4"
+   }
+}
