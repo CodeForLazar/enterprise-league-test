@@ -10,13 +10,13 @@
       border-collapse: collapse;
 
       th {
-         background-color: $gray50;
+         background-color: $indigo600;
+         color: #fff;
          position: sticky;
          top: 0;
          z-index: 1;
          padding: 1.2rem 1rem;
-         color: $gray900;
-         font-weight: 600;
+         font-weight: 700;
          border-bottom: 1px solid $gray300;
          text-align: left;
       }

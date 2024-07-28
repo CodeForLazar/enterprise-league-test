@@ -8,7 +8,7 @@
       "server": "nodemon backend/server.js",
       "client": "npm run dev --prefix frontend",
       "dev": "concurrently \"npm run server\" \"npm run client\"",
-      "install:all": "npm install && npm install --prefix frontend"
+      "install:all": "pnpm install && pnpm install --prefix frontend"
    },
    "author": "Lazar Kiridjievski",
    "license": "ISC",
